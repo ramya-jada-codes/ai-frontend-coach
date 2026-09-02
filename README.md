@@ -1,16 +1,123 @@
-# React + Vite
+# AI Frontend Coach 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive frontend interview preparation platform built with React.js.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[**Try AI Frontend Coach**](https://ramya-jada-codes.github.io/ai-frontend-coach/)
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+AI Frontend Coach is a web-based platform designed to help frontend developers practice technical interview questions and improve their interview preparation.
 
-## Expanding the ESLint configuration
+The application provides interview questions for:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* HTML
+* CSS
+* JavaScript
+* React.js
+
+Users can practice questions, search the question bank, filter questions by difficulty, submit answers, use voice input, and track their interview progress and score.
+
+## ✨ Features
+
+* 📚 Frontend Interview Question Bank
+* 🎯 HTML, CSS, JavaScript & React.js Questions
+* 🔎 Search Questions
+* 📊 Difficulty Levels
+* 🎤 Voice Answer Input using Web Speech API
+* 📝 Answer Evaluation & Feedback
+* 📈 Interview Progress Tracking
+* 🏆 Interview Score
+* 📱 Responsive Design
+* ⚡ Fast and Modern React UI
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* React.js
+* Vite
+* Web Speech API
+* Git & GitHub
+* GitHub Pages
+
+## 📂 Project Structure
+
+```text
+ai-frontend-coach/
+│
+├── public/
+├── src/
+│   ├── data/
+│   │   ├── htmlQuestions.js
+│   │   ├── cssQuestions.js
+│   │   ├── javascriptQuestions.js
+│   │   └── reactQuestions.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── .github/
+│   └── workflows/
+│       └── main.yml
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🚀 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ramya-jada-codes/ai-frontend-coach.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd ai-frontend-coach
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal.
+
+## 🎯 Project Goal
+
+The goal of this project is to build a practical frontend interview preparation platform while demonstrating skills in:
+
+* React.js
+* JavaScript
+* React State Management
+* Conditional Rendering
+* Responsive UI Development
+* Browser APIs
+* Git & GitHub
+* Deployment using GitHub Pages
+
+## 👩‍💻 Author
+
+**Ramya Jada**
+
+Aspiring Frontend Developer
+B.Tech CSE | React.js | JavaScript | HTML | CSS
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
